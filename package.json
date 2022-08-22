@@ -1,0 +1,28 @@
+{
+  "name": "10-week-coursework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muyawia/10-week-coursework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muyawia/10-week-coursework/issues"
+  },
+  "homepage": "https://github.com/Muyawia/10-week-coursework#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^28.1.3"
+  }
+}
