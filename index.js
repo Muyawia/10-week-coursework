@@ -1,9 +1,8 @@
-const Employee = require("./lib/Employee.js");
 const Engineer = require("./lib/Engineer.js");
 const Intern = require("./lib/Intern.js");
 const Manager = require("./lib/Manager.js");
 const inquirer = require("inquirer");
-const generateTeam = require("./generateHTML.js");
+const pageBuilder = require("./pageBuilder.js");
 const path = require("path");
 const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "dist");
@@ -161,7 +160,7 @@ function init() {
   function newHtml() {
     console.log("The page has been generated!");
 
-    fs.writeFileSync(outputPath, generateTeam(allArray));
+    fs.writeFileSync(outputPath, pageBuilder(allArray));
   }
 
   buildTeam();
