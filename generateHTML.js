@@ -1,10 +1,10 @@
 const allTeam = (data) => {
 const generateEmployee = (employee) => {
 return `<div>
-    <h2>${employee.eName()}</h2>
-    <h3>${employee.eRole()}</h3>
-    <h3>${employee.eId()}</h3>
-    <h4>${employee.eEmail()}</h4>
+    <h2>${employee.getName()}</h2>
+    <h3>${employee.getRole()}</h3>
+    <h3>${employee.getId()}</h3>
+    <h4>${employee.getEmail()}</h4>
 </div>
     `;
   };
