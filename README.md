@@ -21,11 +21,10 @@ Followed by:
 npm test
 ```
 You may also watch this video to understand how it works and is used:
-https://youtu.be/Jbci9In9PwE
+https://youtu.be/YPAnh_PqE6w
 
 ## TODO:
-* Finish questions, only employee questions and page generation is completed.
-* Finish layout of HTML page to be more inline of what is expected of the brief provided.
+* Add styling
+* Add tests
 
 ## BUGS:
-* Data entered shows up as undefined on the HTML page
